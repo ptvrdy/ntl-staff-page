@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Staff Directory</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #b0b8c4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .team-header {
+        background-color: #335a97;
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: bold;
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+        box-shadow: 5px 5px 3px #182f55;
+      }
+      
+      .team-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        max-width: 1200px;
+      }
+      
+      .member-card {
+        background-color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 3px 3px 10px #182f55;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 315px;
+      }
+      
+      .member-card img {
+        width: 130px;
+        height: 130px;
+        min-height: 130px;
+        object-fit: cover;
+        border-radius: 5px;
+        align-self: center;
+        border: 2px solid #112442;
+      }
+      
+      .member-info {
+        flex: 1;
+        margin-top: 2px;
+        flex-direction: column;
+      }
+      
+      .member-card h3 {
+        margin-top: 2px;
+        font-size: 18px;
+      }
+
+      .name {
+        padding: 0px;
+        margin-bottom: 2px;
+        min-height: 10px;
+      }
+
+      .position {
+        font-size: 17px;
+        min-height: 20px;
+      }
+
+      .position-long{
+        font-size: 14px;
+        min-height: 20px;
+      }
+
+      .degree {
+        margin-top: 1px;
+        font-size: 16px;
+        min-height: 25px;
+      }
+
+      .degree-long {
+        margin-top: 1px;
+        font-size: 14.5px;
+        min-height: 25px;
+      }
+
+      .degree-blank {
+        color: #fff;
+        min-height: 25px;
+      }
+      
+      .email {
+        margin-top: 2px;
+        font-size: 16px;
+        min-height: 15px;
+      }
+      
+      .small-email {
+        margin-top: 2px;
+        font-size: 13.75px;
+        word-break: break-all;
+        min-height: 15px;
+      }
+      
+      .member-card a {
+        color: #3b73b9;
+        text-decoration: none;
+      }
+</style>
+</head>
+<body>
+
+<img src="staff_banner.png" alt="National Transportation Library Staff"
+
+<!-- Director -->
+<h2 class="team-header">Director</h2>
+<div class="team-container">
+  <div class="member-card">
+    <img src="David_headshot.jpg" alt="David Gansz">
+    <h3 class="name">David Gansz</h3>
+    <p class="position">Library Director</p>
+    <p class="degree">Master of Information and Library Studies from the University of Michigan</p>
+    <p class="email"><a href="mailto:David.Gansz@dot.gov">David.Gansz@dot.gov</a></p>
+  </div>
+</div>
+
+<!-- Archives and Acquisitions -->
+<h2 class="team-header">Archives and Acquisitions</h2>
+<div class="team-container">
+  <div class="member-card">
+    <img src="Eden_headshot.jpg" alt="Eden Orelove">
+    <h3 class="name">Eden Orelove</h3>
+    <p class="position">Archivist/Historian</p>
+    <p class="degree-long">Master of Library and information Science with Specialization in Archive from the University of Pittsburg</p>
+    <p class="email"><a href="mailto:Eden.Orelove@dot.gov">Eden.Orelove@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Tyler_headshot.png" alt="Tyler Evans">
+    <h3 class="name">Tyler Evans</h3>
+    <p class="position">Acquisitions Librarian</p>
+    <p class="degree">Master of Library & Information Studies from the University of Alabama</p>
+    <p class="email"><a href="mailto:Tyler.Evans@dot.gov">Tyler.Evans@dot.gov</a></p>
+  </div>
+</div>
+
+<!-- Cataloging and Metadata -->
+<h2 class="team-header">Cataloging and Metadata</h2>
+<div class="team-container">
+  <div class="member-card">
+    <img src="Beth_headshot.png" alt="Beth Burnett">
+    <h3 class="name">Beth Burnett</h3>
+    <p class="position">Metadata Librarian</p>
+    <p class="degree">Master of Library and Information Studies from the University of Alabama</p>
+    <p class="email"><a href="mailto:Natalie.Burnett@dot.gov">Natalie.Burnett@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Nellie_headshot.png" alt="Nellie Kamau">
+    <h3 class="name">Nellie Kamau</h3>
+    <p class="position">Librarian Cataloger</p>
+    <p class="degree">Master of Science in Library Science in Library & Information Science</p>
+    <p class="email"><a href="mailto:Nellie.Kamau.ctr@dot.gov">Nellie.Kamau.ctr@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Shawn_headshot.jpg" alt="Shawn Montgomery">
+    <h3 class="name">Shawn Montgomery</h3>
+    <p class="position-long">Metadata/Cataloging Librarian</p>
+    <p class="degree-long">Master of Library and Information Science from University of Maryland</p>
+    <p class="email small-email"><a href="mailto:Shawn.Montgomery.ctr@dot.gov">Shawn.Montgomery.ctr@dot.gov</a></p>
+  </div>
+</div>
+
+<!-- Data Services -->
+<h2 class="team-header">Data Services</h2>
+<div class="team-container">
+  <div class="member-card">
+    <img src="Jesse_headshot.jpg" alt="Jesse Ann Long">
+    <h3 class="name">Jesse Ann Long</h3>
+    <p class="position">Data Curation Librarian</p>
+    <p class="degree">Master of Library and Information Science from Syracuse University</p>
+    <p class="email"><a href="mailto:Jesse.Long@dot.gov">Jesse.Long@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Peyton_headshot.png" alt="Peyton Tvrdy">
+    <h3 class="name">Peyton Tvrdy</h3>
+    <p class="position-long">Data Management and Curation Fellow</p>
+    <p class="degree-long">Master of Science in Library and Information Science from the University of Illinois Urbana-Champaign</p>
+    <p class="email"><a href="mailto:Peyton.Tvrdy.ctr@dot.gov">Peyton.Tvrdy.ctr@dot.gov</a></p>
+  </div>
+</div>
+
+<!-- Reference Services -->
+<h2 class="team-header">Reference Services</h2>
+<div class="team-container">
+  <div class="member-card">
+    <img src="Rosalyn_headshot2.png" alt="Rosalyn Alleman">
+    <h3 class="name">Rosalyn Alleman</h3>
+    <p class="position">Reference Librarian</p>
+    <p class="degree">Master of Library Science from the University of Maryland at College Park</p>
+    <p class="email"><a href="mailto:Rosalyn.Alleman@dot.gov">Rosalyn.Alleman@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Charlotte_headshot.png" alt="Charlotte Gavin">
+    <h3 class="name">Charlotte Gavin</h3>
+    <p class="position">Reference Librarian</p>
+    <p class="degree-blank">Master of Library Science from the</p>
+    <p class="email"><a href="mailto:Charlotte.Gavin.ctr@dot.gov">Charlotte.Gavin.ctr@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Victoria_headshot.png" alt="Victoria Milam">
+    <h3 class="name">Victoria Milam</h3>
+    <p class="position">Reference Librarian</p>
+    <p class="degree-long">Master of Library and Information Science from Catholic University of America</p>
+    <p class="email"><a href="mailto:Victoria.Milam.ctr@dot.gov">Victoria.Milam.ctr@dot.gov</a></p>
+  </div>
+</div>
+
+<!-- Systems Team -->
+<h2 class="team-header">Systems</h2>
+<div class="team-container">
+  <div class="member-card">
+    <img src="Vinod_headshot3.png" alt="Vinod Koduri">
+    <h3 class="name">Vinod Koduri</h3>
+    <p class="position">Web Developer</p>
+    <p class="degree-blank">Master of Library Science from the</p>
+    <p class="email"><a href="mailto:Vinod.Koduri.ctr@dot.gov">Vinod.Koduri.ctr@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Xin_headshot.png" alt="Xin Wang">
+    <h3 class="name">Xin Wang</h3>
+    <p class="position">Systems Librarian</p>
+    <p class="degree-blank">Master of Library Science from the</p>
+    <p class="email"><a href="mailto:Xin.Wang@dot.gov">Xin.Wang@dot.gov</a></p>
+  </div>
+  <div class="member-card">
+    <img src="Patrick_headshot.png" alt="Patrick Wolfe">
+    <h3 class="name">Patrick Wolfe</h3>
+    <p class="position">Systems Fellow</p>
+    <p class="degree">Masters in Library and Information Science from University of South Carolina</p>
+    <p class="email"><a href="mailto:Patrick.Wolfe.ctr@dot.gov">Patrick.Wolfe.ctr@dot.gov</a></p>
+  </div>
+</div>
+
+</body>
+</html>
