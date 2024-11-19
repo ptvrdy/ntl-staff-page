@@ -4,6 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Staff Directory</title>
+<script>
+  // Post the iframe's height to the parent page
+  function sendHeight() {
+      const height = document.body.scrollHeight; // Calculate the content height
+      window.parent.postMessage({ iframeHeight: height }, "*");
+  }
+
+  // Send height after the page loads
+  window.onload = sendHeight;
+
+  // Optional: Send height on window resize
+  window.onresize = sendHeight;
+</script>
 <style>
     body {
         font-family: Arial, sans-serif;
